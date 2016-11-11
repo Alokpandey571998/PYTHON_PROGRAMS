@@ -1,0 +1,119 @@
+variable=str(raw_input('ENTER YOUR NAME\n'))
+gender=str(raw_input("YOU ARE A GIRL OR A BOY\n"))
+while 1==1:
+    a=str(raw_input('A for ....\n'))
+    point=4
+    if a=="APPLE" or "AEROPLANE" or "ANT" or "ANIMAL" or  "ANACONDA":
+        point+=1
+        print 'YOUR SCORE IS', point
+        print variable, " IS A GOOD ", gender
+        break
+    else:
+        print 'YOU SHOULD STUDY WELl'
+        point-=1
+
+        
+while 1==1:
+    a=str(raw_input('B for ....\n'))
+    if a=="BALL" or "BAT" or "BOY" or "BATMAN":
+        point+=1
+        print 'YOUR SCORE IS', point
+        print variable, " IS A GOOD ", gender
+        break
+    else:
+        print 'YOU SHOULD STUDY WELl'
+        point-=1
+
+while 1==1:
+    a=str(raw_input('C for ....\n'))
+    if a=="CAT":
+        point+=1
+        print 'YOUR SCORE IS', point
+        print variable, " IS A GOOD ", gender
+        break
+    else:
+        print 'YOU SHOULD STUDY WELl'
+        point-=1
+
+
+while 1==1:
+    a=str(raw_input('D for ....\n'))
+    if a=="DOG":
+        point+=1
+        print 'YOUR SCORE IS', point
+        print variable, " IS A GOOD ", gender
+        break
+    else:
+        print 'YOU SHOULD STUDY WELl'
+        point-=1
+        
+while 1==1:
+    a=str(raw_input('E for ....\n'))
+    if a=="ELEPHANT":
+        point+=1
+        print 'YOUR SCORE IS', point
+        print variable, " IS A GOOD ", gender
+        break
+    else:
+        print 'YOU SHOULD STUDY WELl'
+        point-=1
+
+while 1==1:
+    a=str(raw_input('F for ....\n'))
+    if a=="FISH":
+        point+=1
+        print 'YOUR SCORE IS', point
+        print variable, " IS A GOOD ", gender
+        break
+    else:
+        print 'YOU SHOULD STUDY WELl'
+        point-=1
+
+while 1==1:
+    a=str(raw_input('G for ....\n'))
+    if a=="GOAT":
+        point+=1
+        print 'YOUR SCORE IS', point
+        print variable, " IS A GOOD ", gender
+        break
+    else:
+        print 'YOU SHOULD STUDY WELl'
+        point-=1
+
+while 1==1:
+    a=str(raw_input('H for ....\n'))
+    if a=="HEN":
+        point+=1
+        print 'YOUR SCORE IS', point
+        print variable, " IS A GOOD ", gender
+        break
+    else:
+        print 'YOU SHOULD STUDY WELl'
+        point-=1
+
+while 1==1:
+    a=str(raw_input('I for ....\n'))
+    if a=="ICECREAM":
+        point+=1
+        print 'YOUR SCORE IS', point
+        print variable, " IS A GOOD ", gender
+        break
+    else:
+        print 'YOU SHOULD STUDY WELl'
+        point-=1
+         
+
+if point>=10:
+
+    print "YOU ARE KING OF ALPHABETS."
+    
+elif point>=5:
+    print "YOU ARE PRINCE OF ALPHABETS."
+    
+    
+else:
+    print "YOU NEED TO PRACTICE A LOT."
+
+    
+    
+print 'YOU ARE WELCOME'
